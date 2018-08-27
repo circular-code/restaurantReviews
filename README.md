@@ -14,7 +14,7 @@ git clone https://github.com/circular-code/restaurantReviews.git
 
 _Dependencies and server_
 
-- all project dependencies are included, except for python, which you have to download from their website. This project was created with python 3.7. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+- all project dependencies are included, except for leaflet, which is loaded over a [cdn](https://unpkg.com/leaflet@1.3.1), and python. This project was created with python 3.7. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software. During installation be sure to check "add to PATH" (only on windows I believe)
 
 - In a terminal cd into the project folder and run my HTTP server to serve up the site files on your local computer. You can do this by running `python -m serve.py`
 
