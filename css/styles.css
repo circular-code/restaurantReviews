@@ -331,8 +331,6 @@ body.inside {
   width: 100%;
 }
 .inside #footer {
-  bottom: 0;
-  position: absolute;
   width: 100%;
 }
 #restaurant-name {
@@ -367,7 +365,7 @@ body.inside {
 }
 #restaurant-container {
   max-width: 30vw;
-  height: calc(100vh - 8.2rem);
+  height: calc(100vh - 12.3rem);
   overflow: auto;
 }
 #reviews-container {
@@ -434,6 +432,7 @@ body.inside {
   }
   #restaurant-container {
     max-width: 100%;
+    height: calc(60vh - 11.3rem);
   }
   #restaurant-container img,
   #restaurant-cuisine {
@@ -443,6 +442,9 @@ body.inside {
   #reviews-container h2 {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+  #footer {
+    padding: 10px;
   }
 }
 
