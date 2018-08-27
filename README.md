@@ -18,7 +18,7 @@ _Dependencies and server_
 
 - In a terminal cd into the project folder and run my HTTP server to serve up the site files on your local computer. You can do this by running `python -m serve.py`
 
-(Sadly the standard serving via `python3 -m http.server 8000` did not work because of this [error](https://stackoverflow.com/questions/49566059/service-worker-registration-error-unsupported-mime-type-text-html))
+(Sadly the standard serving via `python -m http.server 8000` did not work because of this [error](https://stackoverflow.com/questions/49566059/service-worker-registration-error-unsupported-mime-type-text-html))
 
 - Now you can visit the site at: `http://localhost:8000`, and look around. The sites works on all different devices, have a go!
 - The sites also caches your requests with the help of a service worker, so you can use it offline, after visiting once.
